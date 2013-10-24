@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD34C9861819CFC90045BA0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD34C9851819CFC90045BA0E /* Foundation.framework */; };
+		CD34C9881819CFC90045BA0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD34C9871819CFC90045BA0E /* CoreGraphics.framework */; };
+		CD34C98A1819CFC90045BA0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD34C9891819CFC90045BA0E /* UIKit.framework */; };
+		CD34C9901819CFC90045BA0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD34C98E1819CFC90045BA0E /* InfoPlist.strings */; };
+		CD34C9921819CFC90045BA0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34C9911819CFC90045BA0E /* main.m */; };
+		CD34C9961819CFC90045BA0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34C9951819CFC90045BA0E /* AppDelegate.m */; };
+		CD34C9991819CFC90045BA0E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD34C9971819CFC90045BA0E /* Main_iPhone.storyboard */; };
+		CD34C99C1819CFC90045BA0E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD34C99A1819CFC90045BA0E /* Main_iPad.storyboard */; };
+		CD34C99F1819CFC90045BA0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34C99E1819CFC90045BA0E /* ViewController.m */; };
+		CD34C9A11819CFC90045BA0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD34C9A01819CFC90045BA0E /* Images.xcassets */; };
+		CD34C9A81819CFC90045BA0E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD34C9A71819CFC90045BA0E /* XCTest.framework */; };
+		CD34C9A91819CFC90045BA0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD34C9851819CFC90045BA0E /* Foundation.framework */; };
+		CD34C9AA1819CFC90045BA0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD34C9891819CFC90045BA0E /* UIKit.framework */; };
+		CD34C9B21819CFC90045BA0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD34C9B01819CFC90045BA0E /* InfoPlist.strings */; };
+		CD34C9B41819CFC90045BA0E /* CalcatronTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34C9B31819CFC90045BA0E /* CalcatronTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD34C9AB1819CFC90045BA0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD34C97A1819CFC90045BA0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD34C9811819CFC90045BA0E;
+			remoteInfo = Calcatron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD34C9821819CFC90045BA0E /* Calcatron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calcatron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD34C9851819CFC90045BA0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD34C9871819CFC90045BA0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD34C9891819CFC90045BA0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD34C98D1819CFC90045BA0E /* Calcatron-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calcatron-Info.plist"; sourceTree = "<group>"; };
+		CD34C98F1819CFC90045BA0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD34C9911819CFC90045BA0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD34C9931819CFC90045BA0E /* Calcatron-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calcatron-Prefix.pch"; sourceTree = "<group>"; };
+		CD34C9941819CFC90045BA0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD34C9951819CFC90045BA0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD34C9981819CFC90045BA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CD34C99B1819CFC90045BA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CD34C99D1819CFC90045BA0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD34C99E1819CFC90045BA0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD34C9A01819CFC90045BA0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD34C9A61819CFC90045BA0E /* CalcatronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcatronTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD34C9A71819CFC90045BA0E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD34C9AF1819CFC90045BA0E /* CalcatronTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalcatronTests-Info.plist"; sourceTree = "<group>"; };
+		CD34C9B11819CFC90045BA0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD34C9B31819CFC90045BA0E /* CalcatronTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcatronTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD34C97F1819CFC90045BA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD34C9881819CFC90045BA0E /* CoreGraphics.framework in Frameworks */,
+				CD34C98A1819CFC90045BA0E /* UIKit.framework in Frameworks */,
+				CD34C9861819CFC90045BA0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD34C9A31819CFC90045BA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD34C9A81819CFC90045BA0E /* XCTest.framework in Frameworks */,
+				CD34C9AA1819CFC90045BA0E /* UIKit.framework in Frameworks */,
+				CD34C9A91819CFC90045BA0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD34C9791819CFC90045BA0E = {
+			isa = PBXGroup;
+			children = (
+				CD34C98B1819CFC90045BA0E /* Calcatron */,
+				CD34C9AD1819CFC90045BA0E /* CalcatronTests */,
+				CD34C9841819CFC90045BA0E /* Frameworks */,
+				CD34C9831819CFC90045BA0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD34C9831819CFC90045BA0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD34C9821819CFC90045BA0E /* Calcatron.app */,
+				CD34C9A61819CFC90045BA0E /* CalcatronTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD34C9841819CFC90045BA0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD34C9851819CFC90045BA0E /* Foundation.framework */,
+				CD34C9871819CFC90045BA0E /* CoreGraphics.framework */,
+				CD34C9891819CFC90045BA0E /* UIKit.framework */,
+				CD34C9A71819CFC90045BA0E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD34C98B1819CFC90045BA0E /* Calcatron */ = {
+			isa = PBXGroup;
+			children = (
+				CD34C9941819CFC90045BA0E /* AppDelegate.h */,
+				CD34C9951819CFC90045BA0E /* AppDelegate.m */,
+				CD34C9971819CFC90045BA0E /* Main_iPhone.storyboard */,
+				CD34C99A1819CFC90045BA0E /* Main_iPad.storyboard */,
+				CD34C99D1819CFC90045BA0E /* ViewController.h */,
+				CD34C99E1819CFC90045BA0E /* ViewController.m */,
+				CD34C9A01819CFC90045BA0E /* Images.xcassets */,
+				CD34C98C1819CFC90045BA0E /* Supporting Files */,
+			);
+			path = Calcatron;
+			sourceTree = "<group>";
+		};
+		CD34C98C1819CFC90045BA0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD34C98D1819CFC90045BA0E /* Calcatron-Info.plist */,
+				CD34C98E1819CFC90045BA0E /* InfoPlist.strings */,
+				CD34C9911819CFC90045BA0E /* main.m */,
+				CD34C9931819CFC90045BA0E /* Calcatron-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD34C9AD1819CFC90045BA0E /* CalcatronTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD34C9B31819CFC90045BA0E /* CalcatronTests.m */,
+				CD34C9AE1819CFC90045BA0E /* Supporting Files */,
+			);
+			path = CalcatronTests;
+			sourceTree = "<group>";
+		};
+		CD34C9AE1819CFC90045BA0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD34C9AF1819CFC90045BA0E /* CalcatronTests-Info.plist */,
+				CD34C9B01819CFC90045BA0E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD34C9811819CFC90045BA0E /* Calcatron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD34C9B71819CFC90045BA0E /* Build configuration list for PBXNativeTarget "Calcatron" */;
+			buildPhases = (
+				CD34C97E1819CFC90045BA0E /* Sources */,
+				CD34C97F1819CFC90045BA0E /* Frameworks */,
+				CD34C9801819CFC90045BA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calcatron;
+			productName = Calcatron;
+			productReference = CD34C9821819CFC90045BA0E /* Calcatron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD34C9A51819CFC90045BA0E /* CalcatronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD34C9BA1819CFC90045BA0E /* Build configuration list for PBXNativeTarget "CalcatronTests" */;
+			buildPhases = (
+				CD34C9A21819CFC90045BA0E /* Sources */,
+				CD34C9A31819CFC90045BA0E /* Frameworks */,
+				CD34C9A41819CFC90045BA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD34C9AC1819CFC90045BA0E /* PBXTargetDependency */,
+			);
+			name = CalcatronTests;
+			productName = CalcatronTests;
+			productReference = CD34C9A61819CFC90045BA0E /* CalcatronTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD34C97A1819CFC90045BA0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Siddtechnologies inc.";
+				TargetAttributes = {
+					CD34C9A51819CFC90045BA0E = {
+						TestTargetID = CD34C9811819CFC90045BA0E;
+					};
+				};
+			};
+			buildConfigurationList = CD34C97D1819CFC90045BA0E /* Build configuration list for PBXProject "Calcatron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD34C9791819CFC90045BA0E;
+			productRefGroup = CD34C9831819CFC90045BA0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD34C9811819CFC90045BA0E /* Calcatron */,
+				CD34C9A51819CFC90045BA0E /* CalcatronTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD34C9801819CFC90045BA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD34C99C1819CFC90045BA0E /* Main_iPad.storyboard in Resources */,
+				CD34C9A11819CFC90045BA0E /* Images.xcassets in Resources */,
+				CD34C9991819CFC90045BA0E /* Main_iPhone.storyboard in Resources */,
+				CD34C9901819CFC90045BA0E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD34C9A41819CFC90045BA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD34C9B21819CFC90045BA0E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD34C97E1819CFC90045BA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD34C99F1819CFC90045BA0E /* ViewController.m in Sources */,
+				CD34C9961819CFC90045BA0E /* AppDelegate.m in Sources */,
+				CD34C9921819CFC90045BA0E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD34C9A21819CFC90045BA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD34C9B41819CFC90045BA0E /* CalcatronTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD34C9AC1819CFC90045BA0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD34C9811819CFC90045BA0E /* Calcatron */;
+			targetProxy = CD34C9AB1819CFC90045BA0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD34C98E1819CFC90045BA0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD34C98F1819CFC90045BA0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD34C9971819CFC90045BA0E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD34C9981819CFC90045BA0E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CD34C99A1819CFC90045BA0E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD34C99B1819CFC90045BA0E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CD34C9B01819CFC90045BA0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD34C9B11819CFC90045BA0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD34C9B51819CFC90045BA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD34C9B61819CFC90045BA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD34C9B81819CFC90045BA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calcatron/Calcatron-Prefix.pch";
+				INFOPLIST_FILE = "Calcatron/Calcatron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD34C9B91819CFC90045BA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calcatron/Calcatron-Prefix.pch";
+				INFOPLIST_FILE = "Calcatron/Calcatron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD34C9BB1819CFC90045BA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Calcatron.app/Calcatron";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calcatron/Calcatron-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CalcatronTests/CalcatronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD34C9BC1819CFC90045BA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Calcatron.app/Calcatron";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calcatron/Calcatron-Prefix.pch";
+				INFOPLIST_FILE = "CalcatronTests/CalcatronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD34C97D1819CFC90045BA0E /* Build configuration list for PBXProject "Calcatron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD34C9B51819CFC90045BA0E /* Debug */,
+				CD34C9B61819CFC90045BA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD34C9B71819CFC90045BA0E /* Build configuration list for PBXNativeTarget "Calcatron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD34C9B81819CFC90045BA0E /* Debug */,
+				CD34C9B91819CFC90045BA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD34C9BA1819CFC90045BA0E /* Build configuration list for PBXNativeTarget "CalcatronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD34C9BB1819CFC90045BA0E /* Debug */,
+				CD34C9BC1819CFC90045BA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD34C97A1819CFC90045BA0E /* Project object */;
+}
